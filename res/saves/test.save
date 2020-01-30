@@ -1,0 +1,725 @@
+{
+  "dungeon": {
+    "seed": 0,
+    "name": "Unnamed",
+    "width": 64,
+    "height": 64
+  },
+  "textures": [
+    {
+      "id": 0,
+      "name": "res\\textures\\o.png",
+      "path": "res\\textures\\o.png"
+    },
+    {
+      "id": 1,
+      "name": "res\\textures\\enviornment.png",
+      "path": "res\\textures\\enviornment.png"
+    },
+    {
+      "id": 2,
+      "name": "res\\textures\\glyphs.png",
+      "path": "res\\textures\\glyphs.png"
+    },
+    {
+      "id": 3,
+      "name": "res/textures/enviornment.png",
+      "path": "res/textures/enviornment.png"
+    },
+    {
+      "id": 4,
+      "name": "res/textures/glyphs.png",
+      "path": "res/textures/glyphs.png"
+    },
+    {
+      "id": 5,
+      "name": "res/textures/o.png",
+      "path": "res/textures/o.png"
+    }
+  ],
+  "textureSheets": [
+    {
+      "id": 0,
+      "name": "environment",
+      "textureId": 3,
+      "mappings": [
+        {
+          "id": 4,
+          "name": "stone_floor"
+        },
+        {
+          "id": 15,
+          "name": ""
+        },
+        {
+          "id": 79,
+          "name": "shrub2"
+        },
+        {
+          "id": 75,
+          "name": "tree_dead"
+        },
+        {
+          "id": 3,
+          "name": "stone_cracked"
+        },
+        {
+          "id": 8,
+          "name": "stone_stairs2"
+        },
+        {
+          "id": 77,
+          "name": "tree2"
+        },
+        {
+          "id": 9,
+          "name": "stone_hole"
+        },
+        {
+          "id": 78,
+          "name": "shrub"
+        },
+        {
+          "id": 11,
+          "name": "stone_chest_open"
+        },
+        {
+          "id": 76,
+          "name": "tree_dead_dark"
+        },
+        {
+          "id": 5,
+          "name": "dark_stone"
+        },
+        {
+          "id": 12,
+          "name": "wood"
+        },
+        {
+          "id": 1,
+          "name": "stone_torch"
+        },
+        {
+          "id": 2,
+          "name": "stone_low_torch"
+        },
+        {
+          "id": 6,
+          "name": "dark_stone_tile"
+        },
+        {
+          "id": 10,
+          "name": "stone_chest"
+        },
+        {
+          "id": 45,
+          "name": "square_block"
+        },
+        {
+          "id": 7,
+          "name": "stone_stairs"
+        },
+        {
+          "id": 28,
+          "name": "dirt"
+        },
+        {
+          "id": 73,
+          "name": "tree"
+        },
+        {
+          "id": 29,
+          "name": "circle_block"
+        },
+        {
+          "id": 13,
+          "name": "red_block"
+        },
+        {
+          "id": 74,
+          "name": "tree_yellow"
+        },
+        {
+          "id": 0,
+          "name": "stone"
+        },
+        {
+          "id": 61,
+          "name": "light_red_block"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "objects",
+      "textureId": 5,
+      "mappings": [
+        {
+          "id": 63,
+          "name": "staff_green"
+        },
+        {
+          "id": 39,
+          "name": "ring_purple"
+        },
+        {
+          "id": 3,
+          "name": "gem_red"
+        },
+        {
+          "id": 8,
+          "name": "bag"
+        },
+        {
+          "id": 74,
+          "name": "armor_red"
+        },
+        {
+          "id": 57,
+          "name": "gold_guy"
+        },
+        {
+          "id": 2,
+          "name": "chest_closed"
+        },
+        {
+          "id": 70,
+          "name": "armor_silver"
+        },
+        {
+          "id": 12,
+          "name": "potion_red"
+        },
+        {
+          "id": 0,
+          "name": "chest_open_gold"
+        },
+        {
+          "id": 4,
+          "name": "gem_purple"
+        },
+        {
+          "id": 75,
+          "name": "whip"
+        },
+        {
+          "id": 1,
+          "name": "chest_open"
+        },
+        {
+          "id": 11,
+          "name": "potion_green"
+        },
+        {
+          "id": 40,
+          "name": "ring_green"
+        },
+        {
+          "id": 14,
+          "name": "potion_yellow"
+        },
+        {
+          "id": 69,
+          "name": "armor_gold"
+        },
+        {
+          "id": 73,
+          "name": "armor_elite"
+        },
+        {
+          "id": 32,
+          "name": "key_gold"
+        },
+        {
+          "id": 23,
+          "name": "page_o"
+        },
+        {
+          "id": 7,
+          "name": "gem_blue"
+        },
+        {
+          "id": 26,
+          "name": "page_6"
+        },
+        {
+          "id": 27,
+          "name": "page_7"
+        },
+        {
+          "id": 25,
+          "name": "page_5"
+        },
+        {
+          "id": 56,
+          "name": "blue_thing"
+        },
+        {
+          "id": 33,
+          "name": "key_silver"
+        },
+        {
+          "id": 43,
+          "name": "band_grey"
+        },
+        {
+          "id": 18,
+          "name": "skull_blue"
+        },
+        {
+          "id": 44,
+          "name": "band_gold"
+        },
+        {
+          "id": 9,
+          "name": "potion_black"
+        },
+        {
+          "id": 28,
+          "name": "page_8"
+        },
+        {
+          "id": 67,
+          "name": "bow_blue"
+        },
+        {
+          "id": 59,
+          "name": "whatthefuckarethesethings"
+        },
+        {
+          "id": 13,
+          "name": "potion_blue"
+        },
+        {
+          "id": 68,
+          "name": "armor"
+        },
+        {
+          "id": 37,
+          "name": "shield_orange"
+        },
+        {
+          "id": 66,
+          "name": "bow_gold"
+        },
+        {
+          "id": 77,
+          "name": "whip_red"
+        },
+        {
+          "id": 49,
+          "name": "shield_metal"
+        },
+        {
+          "id": 79,
+          "name": "whip_blue"
+        },
+        {
+          "id": 65,
+          "name": "bow_silver"
+        },
+        {
+          "id": 76,
+          "name": "whip_green"
+        },
+        {
+          "id": 29,
+          "name": "chicken"
+        },
+        {
+          "id": 41,
+          "name": "ring_red"
+        },
+        {
+          "id": 17,
+          "name": "skull_large"
+        },
+        {
+          "id": 20,
+          "name": "crosstomb"
+        },
+        {
+          "id": 80,
+          "name": "red_particles"
+        },
+        {
+          "id": 64,
+          "name": "bow"
+        },
+        {
+          "id": 78,
+          "name": "whip_purple"
+        },
+        {
+          "id": 22,
+          "name": "page_ic"
+        },
+        {
+          "id": 15,
+          "name": "apple"
+        },
+        {
+          "id": 10,
+          "name": "potion_purple"
+        },
+        {
+          "id": 46,
+          "name": "red_staff"
+        },
+        {
+          "id": 60,
+          "name": "staff_gold"
+        },
+        {
+          "id": 52,
+          "name": "shield_blue"
+        },
+        {
+          "id": 16,
+          "name": "skull"
+        },
+        {
+          "id": 45,
+          "name": "band_blue"
+        },
+        {
+          "id": 51,
+          "name": "shield_gold"
+        },
+        {
+          "id": 61,
+          "name": "staff_blue"
+        },
+        {
+          "id": 34,
+          "name": "key_orange"
+        },
+        {
+          "id": 30,
+          "name": "barrel"
+        },
+        {
+          "id": 58,
+          "name": "silver_guy"
+        },
+        {
+          "id": 19,
+          "name": "tombstone"
+        },
+        {
+          "id": 54,
+          "name": "sword_gold"
+        },
+        {
+          "id": 38,
+          "name": "ring_blue"
+        },
+        {
+          "id": 36,
+          "name": "shield_silver"
+        },
+        {
+          "id": 62,
+          "name": "staff_red"
+        },
+        {
+          "id": 71,
+          "name": "armor_golden"
+        },
+        {
+          "id": 31,
+          "name": "barrel_open"
+        },
+        {
+          "id": 24,
+          "name": "page_x"
+        },
+        {
+          "id": 55,
+          "name": "sword_golden"
+        },
+        {
+          "id": 5,
+          "name": "gem_green"
+        },
+        {
+          "id": 47,
+          "name": "white_staff"
+        },
+        {
+          "id": 48,
+          "name": "shield_wood"
+        },
+        {
+          "id": 53,
+          "name": "sword"
+        },
+        {
+          "id": 21,
+          "name": "page_lines"
+        },
+        {
+          "id": 72,
+          "name": "armor_metal"
+        },
+        {
+          "id": 50,
+          "name": "shield_metal2"
+        },
+        {
+          "id": 6,
+          "name": "gem_yellow"
+        },
+        {
+          "id": 42,
+          "name": "ring_grey"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "glyphs",
+      "textureId": 4,
+      "mappings": [
+        {
+          "id": 6,
+          "name": "shield"
+        },
+        {
+          "id": 12,
+          "name": "magic_curse"
+        },
+        {
+          "id": 13,
+          "name": "skull_curse"
+        },
+        {
+          "id": 0,
+          "name": "potion_red"
+        },
+        {
+          "id": 1,
+          "name": "magic_white"
+        },
+        {
+          "id": 2,
+          "name": "potion_black"
+        },
+        {
+          "id": 5,
+          "name": "magic_green"
+        },
+        {
+          "id": 9,
+          "name": "potion_green"
+        },
+        {
+          "id": 10,
+          "name": "eye"
+        },
+        {
+          "id": 4,
+          "name": "sword"
+        },
+        {
+          "id": 8,
+          "name": "skeleton"
+        },
+        {
+          "id": 11,
+          "name": "skull_red"
+        },
+        {
+          "id": 20,
+          "name": "selection"
+        },
+        {
+          "id": 7,
+          "name": "man"
+        },
+        {
+          "id": 3,
+          "name": "magic_fire"
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": 0,
+      "textureSheet": "0,13",
+      "color": "(1.0,1.0,1.0)",
+      "reflect": 0.0,
+      "repeat": "(1.0,1.0)"
+    },
+    {
+      "id": 1,
+      "textureSheet": "0,61",
+      "color": "(1.0,1.0,1.0)",
+      "reflect": 0.0,
+      "repeat": "(1.0,1.0)"
+    },
+    {
+      "id": 2,
+      "textureSheet": "0,29",
+      "color": "(1.0,1.0,1.0)",
+      "reflect": 0.0,
+      "repeat": "(1.0,1.0)"
+    },
+    {
+      "id": 3,
+      "textureSheet": "0,45",
+      "color": "(1.0,1.0,1.0)",
+      "reflect": 0.0,
+      "repeat": "(1.0,1.0)"
+    },
+    {
+      "id": 4,
+      "textureSheet": "0,0",
+      "color": "(1.0,1.0,1.0)",
+      "reflect": 0.0,
+      "repeat": "(1.0,1.0)"
+    },
+    {
+      "id": 5,
+      "textureSheet": "0,28",
+      "color": "(1.0,1.0,1.0)",
+      "reflect": 0.0,
+      "repeat": "(1.0,1.0)"
+    },
+    {
+      "id": 6,
+      "textureSheet": "0,28",
+      "color": "(1.0,1.0,1.0)",
+      "reflect": 0.0,
+      "repeat": "(1.0,1.0)"
+    },
+    {
+      "id": 7,
+      "textureSheet": "1,53",
+      "color": "(1.0,1.0,1.0)",
+      "reflect": 0.0,
+      "repeat": "(1.0,1.0)"
+    },
+    {
+      "id": 8,
+      "color": "(0.9,0.1,0.1)",
+      "reflect": 0.0,
+      "repeat": "(1.0,1.0)"
+    }
+  ],
+  "meshes": [
+    {
+      "id": 0,
+      "material": 7
+    },
+    {
+      "id": 1,
+      "material": 8
+    },
+    {
+      "id": 2
+    }
+  ],
+  "sounds": [],
+  "sources": [],
+  "gameObjects": [
+    {
+      "id": 0,
+      "active": true,
+      "renderable": true,
+      "drawType": "DEFAULT",
+      "position": "(5.0,0.0,0.0)",
+      "rotation": "(0.0,0.0,0.0)",
+      "scale": "(2.0,2.0,2.0)",
+      "mesh": 2,
+      "material": 8
+    },
+    {
+      "id": 1,
+      "active": true,
+      "renderable": true,
+      "drawType": "DEFAULT",
+      "position": "(-5.0,0.0,0.0)",
+      "rotation": "(0.0,0.0,0.0)",
+      "scale": "(2.0,2.0,2.0)",
+      "mesh": 2,
+      "material": 8
+    },
+    {
+      "id": 2,
+      "active": true,
+      "renderable": true,
+      "drawType": "DEFAULT",
+      "position": "(0.0,0.0,5.0)",
+      "rotation": "(0.0,0.0,0.0)",
+      "scale": "(2.0,2.0,2.0)",
+      "mesh": 2,
+      "material": 8
+    },
+    {
+      "id": 3,
+      "active": true,
+      "renderable": true,
+      "drawType": "DEFAULT",
+      "position": "(0.0,0.0,-5.0)",
+      "rotation": "(0.0,0.0,0.0)",
+      "scale": "(2.0,2.0,2.0)",
+      "mesh": 2,
+      "material": 8
+    },
+    {
+      "id": 4,
+      "active": true,
+      "renderable": true,
+      "drawType": "DEFAULT",
+      "position": "(0.0,5.0,0.0)",
+      "rotation": "(0.0,0.0,0.0)",
+      "scale": "(2.0,2.0,2.0)",
+      "mesh": 2,
+      "material": 8
+    },
+    {
+      "id": 5,
+      "active": true,
+      "renderable": true,
+      "drawType": "DEFAULT",
+      "position": "(0.0,-5.0,0.0)",
+      "rotation": "(0.0,0.0,0.0)",
+      "scale": "(2.0,2.0,2.0)",
+      "mesh": 2,
+      "material": 8
+    },
+    {
+      "id": 6,
+      "active": true,
+      "renderable": true,
+      "drawType": "DEFAULT",
+      "position": "(0.0,0.0,0.0)",
+      "rotation": "(0.0,0.0,0.0)",
+      "scale": "(1.0,1.0,1.0)",
+      "mesh": 2,
+      "material": 8
+    },
+    {
+      "id": 7,
+      "active": true,
+      "renderable": true,
+      "drawType": "BILLBOARD",
+      "position": "(0.0,1.5,0.0)",
+      "rotation": "(0.0,0.0,0.0)",
+      "scale": "(1.0,1.0,1.0)",
+      "mesh": 0
+    },
+    {
+      "id": 8,
+      "active": true,
+      "renderable": true,
+      "drawType": "DEFAULT",
+      "position": "(3.0,3.0,3.0)",
+      "rotation": "(0.0,0.0,0.0)",
+      "scale": "(1.0,1.0,1.0)",
+      "mesh": 1
+    }
+  ]
+}
